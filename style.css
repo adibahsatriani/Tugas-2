@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navigasi{
+    background-color:rgba(46, 154, 196, 0.753);
+    width: 100%;
+    height: 70px;
+    color: white;
+    position: fixed;
+}
+
+.logo{
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
+.menu{ 
+    margin-left: 800px;
+    padding-top: 27px;
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul li a:hover{
+    color: grey;
+    font-style: italic;
+}
+
+.background{
+    background-color:lightgray;
+    height: 600px;
+    text-align: center;
+    color: rgb(23, 52, 131);
+}
+
+.background img{
+    border-radius: 100px;
+    height: 150px;
+    border: 6px solid grey;
+    margin-top: 100px;
+}
+
+.background h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.background button{
+    margin-top: 60px;
+    padding: 10px;
+    width: 400px;
+    border-radius: 40px;
+    border-color: #1e3f86;
+}
+
+.background button:hover{
+    background-color:grey ;
+    border:2px solid rgb(16, 71, 133);
+    color: rgb(23, 52, 131);
+}
+
+h1 span:before{
+    content: '' ;
+    animation: gerak infinite 8s ease;
+    transform: translateY(-50%);
+    color: rgb(23, 52, 131);
+    font-size: 50px;
+}
+
+@keyframes gerak{
+    0% {
+        content: 'Welcome to my website';
+    }
+
+    50%{
+        content: 'Little Things About Me';
+    }
+    100%{
+        content: 'Thank You For Coming';
+    }
+}
+
+.frame-pendidikan{
+    text-align: center;
+    color: rgb(23, 52, 131);
+    margin-top: 30px;
+    align-content: center;
+}
+
+.frame-kiri, .frame-kanan, .frame-tengah{
+    width: 300px;
+    height: 320;
+    background-color: lightgray;
+    text-align: center;
+    padding: 30px 30px;
+    margin: 10px 20px 20px 55px;
+    border-radius: 15px;
+    float: left;
+}
+
+.frame-kiri:hover, .frame-kanan:hover, .frame-tengah:hover{
+    background-color: rgba(46, 154, 196, 0.753);
+    color: white;
+}
+
+
+.frame-pendidikan h3, p{
+    margin-top: 10px;
+    margin-bottom: 13px;
+    padding: 0px 20px;
+}
+
+.krs{
+align-content: center;
+}
+
+.jadwal-kuliah h1{
+    text-align: center;
+    color: rgb(23, 52, 131);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+TH{
+    color: #FFFFFF; background-color: #487e8f; border-width: 1px;
+    border-style: solid; border-color: rgb(0, 0, 0); font-size: 9pt;
+    text-align: center;
+}
+TD{
+    color: rgb(0, 0, 0);
+    background-color: #E6E6FA; border-width: 1px;
+    border-style: solid; border-color: rgb(0, 0, 0); font-size: 9pt;
+    text-align: center;
+}
+
+.frame-organisasi{
+    text-align: center;
+    color: rgb(23, 52, 131);
+    margin-top: 30px;
+    align-content: center;
+}
+
+.frameo-kiri, .frameo-kanan, .frameo-tengah{
+    width: 300px;
+    height: 320;
+    background-color: lightgray;
+    text-align: center;
+    padding: 30px 30px;
+    margin: 10px 20px 20px 55px;
+    border-radius: 15px;
+    float: left;
+}
+
+.frameo-kiri:hover, .frameo-kanan:hover, .frameo-tengah:hover{
+    background-color: rgba(46, 154, 196, 0.753);
+    color: white;
+}
+
+
+.frame-organisasi h3, p{
+    margin-top: 10px;
+    margin-bottom: 13px;
+    padding: 0px 20px;
+}
+
+.footer{
+    background-color: #487e8f;
+    width: 100%;
+    height: 40px;
+    color: white;
+    padding: 3px;
+    margin: 50px auto 0px;
+}
+
+.box-kontak{
+text-align: center;
+color: rgb(23, 52, 131);
+margin-top: 500px;
+}
+
+.box-kontak img{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+
